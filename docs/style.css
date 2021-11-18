@@ -1,2 +1,6 @@
 body{padding:50px;}
 a{color:yellow;}
+div{text-align:center; width:auto; margin:auto;}
+label{font-size:16pt; font-weight:bold;}
+select{padding:20px; background-color:gray; color:white; border: none; border-radius:10px; font-size:14pt}
+button{padding:20px; background-color:green; color:white; border-radius:20px; border:none; font-size:14pt}
