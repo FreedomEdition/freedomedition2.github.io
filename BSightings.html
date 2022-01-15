@@ -1,0 +1,120 @@
+<html>
+<head>
+  <title>Butterfly project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <style>
+	
+	body{height:100%;
+	   width:100%;
+	   background-image:url("https://th.bing.com/th/id/OIP.JGUWe6l0UnLbGA52oAJ4SwHaNK?w=120&h=213&c=7&r=0&o=5&pid=1.7");
+	   background-repeat:no-repeat; 
+	   background-size:cover; 
+	   background-color:#202020
+	  }
+		
+	table, th, td {border: 2px solid white;text-align:center; font-size:18pt;}
+
+	th{background-color:blue; color:white; font-weight:bold;}
+	
+	img{width:100; height:100}
+
+	td{text-align:center; color:white;}
+	
+	.button{padding:15px 50px; background-color:green;color:white; border-radius:20px; border:none; font-size:14pt}
+
+	.editText{font-size:18pt; border-radius:20px;}
+	
+	input[type="radio"] {height: 20px; width: 20px; vertical-align: middle;}
+
+	input[type="checkbox"] {height: 20px; width: 20px;vertical-align: middle;}
+	
+	input[type="submit"] {padding: 10px 20px; border-radius:8px;border:none; background-color:green; color:white; font-size:16pt; margin-top:20px; margin-bottom:20px;}
+	
+	body{font-weight:bold;}
+	
+	.transBG{background-color:#BFe0e0e0; border-radius:20px; margin-top:50px}
+	
+	.title{font-size:40pt; font-weight:bold;}
+	
+	p, label{color:white;}
+	
+	textarea{border-radius:10px}
+	
+	
+	
+	
+  </style>
+  
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+	
+	  <!-- Brand -->
+	  <a class="navbar-brand" href="index.html">Home</a>
+
+	  <!-- Toggler/collapsibe Button -->
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <!-- Navbar links -->
+	  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav" style="text-align:center;">
+		  <li class="nav-item">
+			<a class="nav-link" href="#">About us</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Contact us</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">FAQ's</a>
+		  </li> 
+		</ul>
+	  </div> 
+	</nav>
+
+	<div class="container text-center">
+		<p class="title">Butterfly sightings</p>
+		<p>Here you can post information on the butterflies you have spotted.</p>
+	</div>
+	
+	<div class="container transBG">
+		<form>
+		    <div class="form-row">
+				<div class="col-sm-6">
+					<p><label for="name" class="pt-3">Enter name:</label>
+					<input type="text" class="form-control" id="name" placeholder="Full name" name="name"/></p>
+					<p><label for="email" class="pt-3">Enter email:</label>
+					<input type="text" class="form-control" id="email" placeholder="Email" name="email"/><p/>
+					<p><label for="location" class="pt-3">Enter location:</label>
+					<input type="text" class="form-control" id="location" placeholder="Location" name="location"/></p>
+					<p><label for="fileselect">Upload photo:</label>
+					<input type="file" name="upload" id="fileselect"/></p>
+					<label for="fileselect">Description (optional):</label>
+					<p><textarea rows="5" cols="40" name="Description" id="Description"></textarea></p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<input type="submit" value="Submit"/>
+				</div>
+			</div>
+		</form>
+	</div>
+	
+	<div class="jumbotron text-center">
+	  <p>Footer</p>
+	</div>
+	
+</body>
+
+</html>
